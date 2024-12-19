@@ -1,7 +1,7 @@
 const { CashfreeGateway } = require('../gateways/cashfree.js');
 const { RazorpayGateway } = require('../gateways/razorpay.js');
 
-class PaymentService{
+class PayApi{
   //Constructor
   constructor(config){
     const {provider, apiKey, apiSecret, clientSecret} = config;
@@ -145,4 +145,4 @@ async createOrder(data) {
   }
 }
 
-module.exports = PaymentService;
+module.exports = {PayApi};

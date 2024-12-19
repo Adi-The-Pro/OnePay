@@ -1,4 +1,4 @@
-const paymentService = require('../services/paymentService.js');
+const PayApi = require('../services/paymentService')
 
 const config = {
     provider : '*****************',
