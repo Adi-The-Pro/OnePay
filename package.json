@@ -1,15 +1,19 @@
 {
-  "name": "payapi",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "name": "PayApi",        
+  "version": "1.0.0",                 
+  "description": "A payment gateway wrapper for Razorpay and Cashfree",
+  "main": "app.js",                 
+  "keywords": ["payment", "gateway", "razorpay", "cashfree"],
+  "author": "Turtle Gang",
+  "license": "ISC",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon app.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Adi-The-Pro/PayApi"
+  },
   "dependencies": {
     "cashfree-pg": "^4.3.1",
     "crypto": "^1.0.1",
@@ -17,5 +21,5 @@
     "express": "^4.21.2",
     "nodemon": "^3.1.7",
     "razorpay": "^2.9.5"
-  }
+  }              
 }
