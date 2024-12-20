@@ -1,9 +1,14 @@
 {
-  "name": "multi-pay",        
-  "version": "1.0.0",                 
+  "name": "one-pay",
+  "version": "1.0.0",
   "description": "A payment gateway wrapper for Razorpay and Cashfree",
-  "main": "app.js",                 
-  "keywords": ["payment", "gateway", "razorpay", "cashfree"],
+  "main": "app.js",
+  "keywords": [
+    "payment",
+    "gateway",
+    "razorpay",
+    "cashfree"
+  ],
   "author": "Turtle Gang",
   "license": "ISC",
   "scripts": {
@@ -20,6 +25,7 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "nodemon": "^3.1.7",
+    "npm-name": "^8.0.0",
     "razorpay": "^2.9.5"
-  }              
+  }
 }
