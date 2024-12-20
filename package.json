@@ -1,5 +1,5 @@
 {
-  "name": "uni-pay",        
+  "name": "multi-pay",        
   "version": "1.0.0",                 
   "description": "A payment gateway wrapper for Razorpay and Cashfree",
   "main": "app.js",                 
