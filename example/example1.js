@@ -1,4 +1,4 @@
-const PayApi = require('../services/paymentService')
+const OnePay = require('../services/paymentService')
 
 const config = {
     provider : '*****************',
@@ -6,7 +6,7 @@ const config = {
     apiSecret : '****************',
 }
 
-const instance = new paymentService(config);
+const instance = new OnePay(config);
 
 //Supporing Gateways : Razorpay , Cashfree
 //Example on how to use our unified payments gateway

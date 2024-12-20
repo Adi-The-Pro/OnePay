@@ -1,3 +1,3 @@
-const PayApi = require('./services/paymentService.js')
+const OnePay = require('./services/paymentService.js')
 
-module.exports = {PayApi};
+module.exports = {OnePay};

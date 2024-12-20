@@ -1,5 +1,5 @@
 {
-  "name": "@turtlegang/one-pay",
+  "name": "one-pay",
   "version": "1.0.0",
   "description": "A payment gateway wrapper for Razorpay and Cashfree",
   "main": "app.js",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Adi-The-Pro/PayApi"
+    "url": "https://github.com/Adi-The-Pro/one-pay"
   },
   "dependencies": {
     "cashfree-pg": "^4.3.1",
@@ -26,6 +26,7 @@
     "express": "^4.21.2",
     "nodemon": "^3.1.7",
     "npm-name": "^8.0.0",
+    "one-pay": "^1.0.0",
     "razorpay": "^2.9.5"
   }
 }

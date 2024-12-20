@@ -1,5 +1,5 @@
 const express = require('express');
-const PayApi = require('../services/paymentService')
+const OnePay = require('../services/paymentService')
 
 const razorPayConfig = {
     provider : 'razorpay',
