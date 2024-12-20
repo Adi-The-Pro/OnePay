@@ -1,6 +1,6 @@
 {
   "name": "one-pay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A payment gateway wrapper for Razorpay and Cashfree",
   "main": "app.js",
   "keywords": [
