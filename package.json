@@ -1,6 +1,6 @@
 {
   "name": "one-pay",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A versatile NPM library designed to simplify payment gateway integration for Razorpay and Cashfree. One-Pay allows developers to perform payments, refunds, and other operations with minimal effort, eliminating the need for extensive boilerplate code. It's the ultimate tool for seamless transaction management in your applications.",
   "main": "app.js",
   "keywords":[

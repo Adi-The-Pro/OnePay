@@ -7,7 +7,7 @@ A versatile NPM library designed to simplify payment gateway integration for Raz
 ## How To Use
 
 ```bash
-const OnePay = require('one-pay')
+const {OnePay} = require('one-pay')
 
 const config = {
     provider : '*', // Specify the provider (e.g., 'Razorpay', 'Cashfree')
