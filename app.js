@@ -1,3 +1,3 @@
-const OnePay = require('./services/paymentService.js')
+const {OnePay} = require('./services/paymentService.js')
 
-module.exports = {OnePay};
+module.exports = OnePay;
