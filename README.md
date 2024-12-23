@@ -10,7 +10,7 @@ A versatile NPM library designed to simplify payment gateway integration for Raz
 const OnePay = require('one-pay')
 
 const config = {
-    provider : '*', // Specify the provider (e.g., 'razorpay', 'cashfree')
+    provider : '*', // Specify the provider (e.g.-'razorpay', 'cashfree')
     apiKey : '*', // Your API Key
     apiSecret : '', // Your API Secret
 }
